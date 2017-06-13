@@ -1,7 +1,7 @@
 # prismsvg
 Prismjs tweaked to output SVGs.
 
-This is a somewhat dirty adaptation of (Prism.js)[http://prismjs.com/] to be able to output SVGs.
+This is a somewhat dirty adaptation of [Prism.js](http://prismjs.com/) to be able to output SVGs.
 
 ```
     <svg height="3em" width="400" >
