@@ -1,7 +1,7 @@
 # prismsvg
 Prismjs tweaked to output SVGs.
 
-This is a somewhat dirty adaptation of [Prism.js](http://prismjs.com/) to be able to output SVGs.
+This is a somewhat dirty adaptation of [Prism.js](http://prismjs.com/) to be able to output SVGs. So you have some code, this produces a syntax highlighted SVG as a result.
 
 ```
     <svg height="3em" width="400" >
@@ -12,7 +12,7 @@ This is a somewhat dirty adaptation of [Prism.js](http://prismjs.com/) to be abl
     </svg>
 ```
 
-And this will output a bunch of tspan nodes with the right classes.
+And this will output a bunch of tspan nodes with the right classes for syntax highlighting.
 
 This package includes also a css file with the light solarized theme adapted to work with SVGs.
 
