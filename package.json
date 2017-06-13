@@ -1,6 +1,6 @@
 {
   "name": "prismsvg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Syntax highlighter that outputs to SVG",
   "main": "dist/prismsvg.js",
   "author": "Nacho Martin",
