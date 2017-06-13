@@ -1,0 +1,16 @@
+{
+  "name": "prismsvg",
+  "version": "1.0.0",
+  "description": "Syntax highlighter that outputs to SVG",
+  "main": "dist/prismsvg.js",
+  "author": "Nacho Martin",
+  "license": "MIT",
+  "scripts": {
+    "build": "scripts/runbuild.sh"
+  },
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "rollup": "^0.43.0",
+    "shelljs": "^0.7.8"
+  }
+}
