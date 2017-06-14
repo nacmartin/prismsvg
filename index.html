@@ -15,17 +15,19 @@
   <body>
     <svg height="4000" width="4000" >
       <text x="0" y="0" class="language-jsx">
- import React, { Component } from 'react';
- 
- class Counter extends Component {
-   constructor(props) {
-     super(props);
-     this.state = {count: 1};
-   }
+import React, { Component } from 'react';
+
+class Counter extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {count: 1};
+  }
       </text>
     </svg>
 
     <link href="prism.css" rel="stylesheet" />
+    <script src="dist/prismsvg.js"></script>
+    <!--
     <script src="src/prismsvg.js"></script>
     <script src="src/prism-clike.js"></script>
     <script src="src/prism-markup.js"></script>
@@ -33,5 +35,6 @@
     <script src="src/prismcss.js"></script>
     <script src="src/prism-jsx.js"></script>
     <script src="src/prism-cr.js"></script>
+    -->
   </body>
 </html>

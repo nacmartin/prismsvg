@@ -1,7 +1,7 @@
 Prism.languages.jsx = Prism.languages.extend('jsx', {
     'cr': {
-        pattern: /[\r\n]\s?/,
-        greedy: true
+        pattern: /[\r\n]/,
+        greedy: false
     }
 })
 
@@ -19,3 +19,4 @@ Prism.hooks.add('wrap', function(env) {
 Prism.hooks.add('before-highlightall', function(env) {
     env.selector = 'text[class*="language-"]'
 })
+
