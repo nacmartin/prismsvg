@@ -1,6 +1,6 @@
 Prism.languages.jsx = Prism.languages.extend('jsx', {
     'cr': {
-        pattern: /[\r\n]/,
+        pattern: /[\r\n]\s?/,
         greedy: true
     }
 })
