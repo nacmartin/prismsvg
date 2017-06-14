@@ -29,7 +29,7 @@ green     #859900
 
 text[class*="language-"],
 pre[class*="language-"] {
-	stroke: #657b83; /* base00 */
+	fill: #657b83; /* base00 */
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
@@ -82,11 +82,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	stroke: #93a1a1; /* base1 */
+	fill: #93a1a1; /* base1 */
 }
 
 .token.punctuation {
-	stroke: #586e75; /* base01 */
+	fill: #586e75; /* base01 */
 }
 
 .namespace {
@@ -100,7 +100,7 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	stroke: #268bd2; /* blue */
+	fill: #268bd2; /* blue */
 }
 
 .token.selector,
@@ -110,28 +110,28 @@ pre[class*="language-"] {
 .token.builtin,
 .token.url,
 .token.inserted {
-	stroke: #2aa198; /* cyan */
+	fill: #2aa198; /* cyan */
 }
 
 .token.entity {
-	stroke: #657b83; /* base00 */
+	fill: #657b83; /* base00 */
 	background: #eee8d5; /* base2 */
 }
 
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-	stroke: #859900; /* green */
+	fill: #859900; /* green */
 }
 
 .token.function {
-	stroke: #b58900; /* yellow */
+	fill: #b58900; /* yellow */
 }
 
 .token.regex,
 .token.important,
 .token.variable {
-	stroke: #cb4b16; /* orange */
+	fill: #cb4b16; /* orange */
 }
 
 .token.important,
